@@ -21,10 +21,6 @@ function GithubIcon({ size = 18 }) {
   );
 }
 
-/**
- * Alexia Kim M. Nool — Portfolio
- * Dark Editor Theme with Custom Local Fonts, Typewriter Effect & Interactive Skills
- */
 
 const NAV_ITEMS = [
   { id: "about", label: "About" },
@@ -43,7 +39,7 @@ const profile = [
 },
 ];
 
-// Pre-calculate typewriter token lengths so it only computes once on load
+//==
 let _currentIndex = 0;
 const profileCodeLines = [
   { indent: false, tokens: [{ text: "{", className: "text-gray-400" }] },
@@ -94,7 +90,7 @@ const experience = [
     org: "Freelance Project",
     description: "Designed and built a fully responsive four-page portfolio site for a local interior design business, showcasing their services and portfolio with an interactive user experience.",
     image: amImage,
-    demoUrl: "https://finalwdev.netlify.app/",
+    demoUrl: "https://aex1a.github.io/AMInterior/",
   },
 {
   year: "2024",
@@ -255,7 +251,7 @@ export default function Portfolio() {
               </span>
             );
           })}
-          {/* Blinking Cursor */}
+          {/* Blink Cursor */}
           {(isLineActive || isLastLineAndFinished) && (
             <span className="inline-block h-3.5 w-2 ml-0.5 align-baseline bg-gray-400 animate-pulse" />
           )}
@@ -271,7 +267,7 @@ export default function Portfolio() {
       <h2 className="font-['Satoshi_Variable',_sans-serif] text-lg uppercase tracking-widest text-gray-500">
       Skills
       </h2>
-      {/* w-fit forces the hover trigger area to be exactly the size of the clustered tags */}
+      
       <div className="group mt-6 flex w-fit flex-wrap gap-3">
       {skills.map((skill, i) => {
         const scatterClasses = [
