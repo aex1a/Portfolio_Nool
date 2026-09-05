@@ -35,7 +35,6 @@ const NAV_ITEMS = [
 
 const profile = [
   { key: "name", value: `"Alexia Kim M. Nool"` },
-{ key: "role", value: `"Web Developer"` },
 { key: "location", value: `"Tarlac, Philippines"` },
 { key: "education", value: `"Tarlac State University — BS Information Technology"` },
 {
@@ -85,7 +84,7 @@ const experience = [
     year: "2026 — Present",
     title: "Pensioner Verification System",
     org: "MSWD & OSCA, Gerona (Capstone Project)",
-    description: "Built a full-stack registration and identity verification platform...",
+    description: "Built a full-stack registration and identity verification platform for pensioners, enabling secure data management and streamlined access to benefits.",
     image: pvsImage,
     demoUrl: "https://pensionner-frontend.onrender.com",
   },
@@ -93,14 +92,14 @@ const experience = [
     year: "2025",
     title: "AM Interior — Digital Showroom",
     org: "Freelance Project",
-    description: "Designed and built a fully responsive four-page portfolio site...",
+    description: "Designed and built a fully responsive four-page portfolio site for a local interior design business, showcasing their services and portfolio with an interactive user experience.",
     image: amImage,
     demoUrl: "https://finalwdev.netlify.app/",
   },
 {
   year: "2024",
-  title: "Real-Time Transcription",
-  org: "Inflexion AI by Remoat Team",
+  title: "Transcription Editor",
+  org: "Remoat Team",
   description:
   "Handled and transcribed real-time calls for healthcare and IT clients using an AI-assisted platform, maintaining high SLA standards and data accuracy.",
 },
@@ -218,7 +217,7 @@ export default function Portfolio() {
       <p className="mt-6 max-w-[58ch] font-light leading-relaxed text-gray-400">
       I build responsive web applications and scalable backend systems —
       currently finishing my degree at Tarlac State University while
-      continue supporting a biometric verification platform for a local
+      continuing to support the biometric verification platform for a local
       government office.
       </p>
 
