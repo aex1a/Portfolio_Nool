@@ -86,7 +86,7 @@ const experience = [
     org: "MSWD & OSCA, Gerona (Capstone Project)",
     description:
     "Built a full-stack registration and identity verification platform, contributing biometric facial recognition, OCR ID scanning, and a React/TypeScript front end backed by Node.js, Flask, and FastAPI services.",
-    image: "./Screenshot_20260905_144307.png",
+    image: "../Screenshot_20260905_144307.png",
     demoUrl: "https://pensionner-frontend.onrender.com",
   },
 {
@@ -95,7 +95,7 @@ const experience = [
   org: "Freelance Project",
   description:
   "Designed and built a fully responsive four-page portfolio site for an interior design client, deployed live on Netlify.",
-  image: "./Screenshot_20260905_150014.png",
+  image: "../Screenshot_20260905_150014.png",
   demoUrl: "https://finalwdev.netlify.app/",
 },
 {
@@ -224,7 +224,7 @@ export default function Portfolio() {
       </p>
 
       <a
-      href="./resume.pdf"
+      href="../resume.pdf"
       target="_blank"
       rel="noopener noreferrer"
       className="mt-6 inline-flex items-center gap-2 rounded-md bg-blue-600 px-5 py-2.5 font-mono text-sm font-medium text-white transition-colors hover:bg-blue-500"
