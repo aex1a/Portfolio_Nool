@@ -35,7 +35,7 @@ const profile = [
   { key: "name", value: `"Alexia Kim M. Nool"` },
 { key: "role", value: `"Web Developer"` },
 { key: "location", value: `"Tarlac, Philippines"` },
-{ key: "education", value: `"Tarlac State University — BS Computer Science"` },
+{ key: "education", value: `"Tarlac State University — BS Information Technology"` },
 {
   key: "stack",
   value: `["React", "TypeScript", "Node.js", "Python", "PostgreSQL"]`,
@@ -96,7 +96,7 @@ const experience = [
   description:
   "Designed and built a fully responsive four-page portfolio site for an interior design client, deployed live on Netlify.",
   image: "/Screenshot_20260905_150014.png",
-  demoUrl: "finalwdev.netlify.app",
+  demoUrl: "https://finalwdev.netlify.app/",
 },
 {
   year: "2024",
@@ -222,6 +222,15 @@ export default function Portfolio() {
       continue supporting a biometric verification platform for a local
       government office.
       </p>
+
+      <a
+      href="/resume.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-6 inline-flex items-center gap-2 rounded-md bg-blue-600 px-5 py-2.5 font-mono text-sm font-medium text-white transition-colors hover:bg-blue-500"
+      >
+      View Resume ↗
+      </a>
 
       <div className="mt-10 overflow-hidden rounded-lg border border-gray-800 bg-[#252526] shadow-md">
       <div className="flex items-center gap-2 border-b border-gray-800 bg-[#1e1e1e] px-4 py-3">
@@ -371,21 +380,21 @@ export default function Portfolio() {
       <Mail size={18} />
       </a>
       <a
-      href="https://linkedin.com/in/your-linkedin"
+      href="https://www.linkedin.com/in/alexia-nool-38a053263/"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="LinkedIn"
-      title="linkedin.com/in/your-linkedin"
+      title="linkedin_nool"
       className="flex h-11 w-11 items-center justify-center rounded-md border border-gray-700 bg-[#2d2d30] text-gray-300 transition-colors hover:border-blue-400 hover:text-blue-400"
       >
       <LinkedinIcon size={18} />
       </a>
       <a
-      href="https://github.com/your-github"
+      href="https://github.com/aex1a"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="GitHub"
-      title="github.com/your-github"
+      title="aex1a"
       className="flex h-11 w-11 items-center justify-center rounded-md border border-gray-700 bg-[#2d2d30] text-gray-300 transition-colors hover:border-blue-400 hover:text-blue-400"
       >
       <GithubIcon size={18} />
